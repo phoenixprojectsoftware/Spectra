@@ -2,7 +2,7 @@
 * Copyright (c) 2025 The Phoenix Project Software SVG
 * 
 * png2tga:
-* Converts a given PNG file to Targa format/
+* Converts a given PNG file to Targa format.
 **/
 
 #include <iostream>
@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 {
 	if (argc != 3)
 	{
-		std::cout << "Usage: png2tga input.png output.tga\n";
+		std::cout << "Usage: Spectra input.png output.tga\n";
 		return 1;
 	}
 
